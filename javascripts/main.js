@@ -1,4 +1,11 @@
-// your code
+// Loader JS
+window.onload = setTimeout(function() {
+  document.querySelector("#loader").style.cssText = "opacity: 0;";
+}, 500);
+setTimeout(function() {
+  document.querySelector("#loader").style.cssText = "display: none;";
+}, 1000);
+
 var section = document.querySelector('section');
   var requestURL = 'fazenda.json';
   var request = new XMLHttpRequest();

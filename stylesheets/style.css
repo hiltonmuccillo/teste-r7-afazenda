@@ -18,6 +18,17 @@ body {
   font-family: 'Roboto';
 }
 
+#loader {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  overflow: hidden;
+  opacity: 1;
+  transition: ease 500ms;
+  z-index: 999;
+}
+
 section {
   margin: 50px auto;
   position: absolute;
