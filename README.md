@@ -1,4 +1,4 @@
-### Teste DEV Front End - R7.com (RESOLVED)
+### Teste DEV Front End - R7.com (RESOLVIDO)
 Esse teste consiste em conhecermos um pouco mais sobre suas skills com HTML, CSS, JavaScript, Código responsivo, suporte a crossbrowser e lógica.
 
 ### Requisitos obrigatórios
