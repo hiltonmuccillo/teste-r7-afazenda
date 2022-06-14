@@ -147,7 +147,16 @@ var section = document.querySelector('section');
             r5.className = "resultado5 esconde";
             g5.className = "esconde";
             ng5.className = "esconde";
-        } 
+        } else if (r1.className == "resultado1 mostra") {
+            participante1.style.cssText = "background-color: #fff";
+            nome1.style.cssText = "color: #ba3638";
+            bio1.style.cssText = "color: #999";
+            votos1.style.cssText = "color: #999";
+            bordaImg1.style.cssText = "border: 4px solid #ba3638";
+            r1.className = "resultado1 esconde";
+            g1.className = "esconde";
+            ng1.className = "esconde";
+        }
       })
 
       participante2.addEventListener('click', function(){
@@ -196,7 +205,16 @@ var section = document.querySelector('section');
             r5.className = "resultado5 esconde";
             g5.className = "esconde";
             ng5.className = "esconde";
-        }
+        } else if (r2.className == "resultado2 mostra") {
+            participante2.style.cssText = "background-color: #fff";
+            nome2.style.cssText = "color: #ba3638";
+            bio2.style.cssText = "color: #999";
+            votos2.style.cssText = "color: #999";
+            bordaImg2.style.cssText = "border: 4px solid #ba3638";
+            r2.className = "resultado2 esconde";
+            g2.className = "esconde";
+            ng2.className = "esconde";
+      }
       })
 
       participante3.addEventListener('click', function(){
@@ -245,6 +263,15 @@ var section = document.querySelector('section');
             r5.className = "resultado5 esconde";
             g5.className = "esconde";
             ng5.className = "esconde";
+        } else if (r3.className == "resultado3 mostra") {
+            participante3.style.cssText = "background-color: #fff";
+            nome3.style.cssText = "color: #ba3638";
+            bio3.style.cssText = "color: #999";
+            votos3.style.cssText = "color: #999";
+            bordaImg3.style.cssText = "border: 4px solid #ba3638";
+            r3.className = "resultado3 esconde";
+            g3.className = "esconde";
+            ng3.className = "esconde";
         }
       })
 
@@ -294,7 +321,16 @@ var section = document.querySelector('section');
             r5.className = "resultado5 esconde";
             g5.className = "esconde";
             ng5.className = "esconde";
-        } 
+        } else if (r4.className == "resultado4 mostra") {
+            participante4.style.cssText = "background-color: #fff";
+            nome4.style.cssText = "color: #ba3638";
+            bio4.style.cssText = "color: #999";
+            votos4.style.cssText = "color: #999";
+            bordaImg4.style.cssText = "border: 4px solid #ba3638";
+            r4.className = "resultado4 esconde";
+            g4.className = "esconde";
+            ng4.className = "esconde";
+        }
       })
 
       participante5.addEventListener('click', function(){
@@ -343,6 +379,15 @@ var section = document.querySelector('section');
             r4.className = "resultado4 esconde";
             g4.className = "esconde";
             ng4.className = "esconde";
+        } else if (r5.className == "resultado5 mostra") {
+            participante5.style.cssText = "background-color: #fff";
+            nome5.style.cssText = "color: #ba3638";
+            bio5.style.cssText = "color: #999";
+            votos5.style.cssText = "color: #999";
+            bordaImg5.style.cssText = "border: 4px solid #ba3638";
+            r5.className = "resultado5 esconde";
+            g5.className = "esconde";
+            ng5.className = "esconde";
         }
       })
     })();
