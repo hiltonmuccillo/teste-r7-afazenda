@@ -12,7 +12,7 @@ Depois do setup acima, você deve seguir as seguintes instruções, para constru
   * Calcular a porcentagem de "positives" e "negatives".
   * Ordernar os items do json a partir da porcentagem calculada acima.
 
-### Link do meu teste resolvido
+### Link p/ visualização
 > https://hiltonmuccillo.com/afazenda/
 
 <sub>Os dados presentes neste teste são totalmente fictícios.</sub>
