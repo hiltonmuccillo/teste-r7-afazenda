@@ -1,10 +1,10 @@
 // Loader JS
 window.onload = setTimeout(function() {
   document.querySelector("#loader").style.cssText = "opacity: 0;";
-}, 500);
+}, 250);
 setTimeout(function() {
   document.querySelector("#loader").style.cssText = "display: none;";
-}, 1000);
+}, 500);
 
 var section = document.querySelector('section');
   var requestURL = 'fazenda.json';
