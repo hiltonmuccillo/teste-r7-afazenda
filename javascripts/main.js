@@ -28,6 +28,7 @@ var section = document.querySelector('section');
     for (var i = 0; i < participantes.length; i++) {
 
       var myArticle = document.createElement('article');
+      myArticle.classList.add('article-fundo');
 
       var myImg = document.createElement('img');
       myImg.src = participantes[i].picture;
@@ -119,7 +120,7 @@ var section = document.querySelector('section');
             g1.className = "mostra";
             ng1.className = "mostra";
 
-            participante2.style.cssText = "background-color: #fff";
+            participante2.style.cssText = "";
             nome2.style.cssText = "color: #ba3638";
             bio2.style.cssText = "color: #999";
             votos2.style.cssText = "color: #999";
@@ -128,7 +129,7 @@ var section = document.querySelector('section');
             g2.className = "esconde";
             ng2.className = "esconde";
 
-            participante3.style.cssText = "background-color: #fff";
+            participante3.style.cssText = "";
             nome3.style.cssText = "color: #ba3638";
             bio3.style.cssText = "color: #999";
             votos3.style.cssText = "color: #999";
@@ -137,7 +138,7 @@ var section = document.querySelector('section');
             g3.className = "esconde";
             ng3.className = "esconde";
 
-            participante4.style.cssText = "background-color: #fff";
+            participante4.style.cssText = "";
             nome4.style.cssText = "color: #ba3638";
             bio4.style.cssText = "color: #999";
             votos4.style.cssText = "color: #999";
@@ -146,7 +147,7 @@ var section = document.querySelector('section');
             g4.className = "esconde";
             ng4.className = "esconde";
 
-            participante5.style.cssText = "background-color: #fff";
+            participante5.style.cssText = "";
             nome5.style.cssText = "color: #ba3638";
             bio5.style.cssText = "color: #999";
             votos5.style.cssText = "color: #999";
@@ -155,7 +156,7 @@ var section = document.querySelector('section');
             g5.className = "esconde";
             ng5.className = "esconde";
         } else if (r1.className == "resultado1 mostra") {
-            participante1.style.cssText = "background-color: #fff";
+            participante1.style.cssText = "";
             nome1.style.cssText = "color: #ba3638";
             bio1.style.cssText = "color: #999";
             votos1.style.cssText = "color: #999";
@@ -177,7 +178,7 @@ var section = document.querySelector('section');
             g2.className = "mostra";
             ng2.className = "mostra";
 
-            participante1.style.cssText = "background-color: #fff";
+            participante1.style.cssText = "";
             nome1.style.cssText = "color: #ba3638";
             bio1.style.cssText = "color: #999";
             votos1.style.cssText = "color: #999";
@@ -186,7 +187,7 @@ var section = document.querySelector('section');
             g1.className = "esconde";
             ng1.className = "esconde";
 
-            participante3.style.cssText = "background-color: #fff";
+            participante3.style.cssText = "";
             nome3.style.cssText = "color: #ba3638";
             bio3.style.cssText = "color: #999";
             votos3.style.cssText = "color: #999";
@@ -195,7 +196,7 @@ var section = document.querySelector('section');
             g3.className = "esconde";
             ng3.className = "esconde";
             
-            participante4.style.cssText = "background-color: #fff";
+            participante4.style.cssText = "";
             nome4.style.cssText = "color: #ba3638";
             bio4.style.cssText = "color: #999";
             votos4.style.cssText = "color: #999";
@@ -204,7 +205,7 @@ var section = document.querySelector('section');
             g4.className = "esconde";
             ng4.className = "esconde";
 
-            participante5.style.cssText = "background-color: #fff";
+            participante5.style.cssText = "";
             nome5.style.cssText = "color: #ba3638";
             bio5.style.cssText = "color: #999";
             votos5.style.cssText = "color: #999";
@@ -213,7 +214,7 @@ var section = document.querySelector('section');
             g5.className = "esconde";
             ng5.className = "esconde";
         } else if (r2.className == "resultado2 mostra") {
-            participante2.style.cssText = "background-color: #fff";
+            participante2.style.cssText = "";
             nome2.style.cssText = "color: #ba3638";
             bio2.style.cssText = "color: #999";
             votos2.style.cssText = "color: #999";
@@ -235,7 +236,7 @@ var section = document.querySelector('section');
             g3.className = "mostra";
             ng3.className = "mostra";            
 
-            participante1.style.cssText = "background-color: #fff";
+            participante1.style.cssText = "";
             nome1.style.cssText = "color: #ba3638";
             bio1.style.cssText = "color: #999";
             votos1.style.cssText = "color: #999";
@@ -244,7 +245,7 @@ var section = document.querySelector('section');
             g1.className = "esconde";
             ng1.className = "esconde";
 
-            participante2.style.cssText = "background-color: #fff";
+            participante2.style.cssText = "";
             nome2.style.cssText = "color: #ba3638";
             bio2.style.cssText = "color: #999";
             votos2.style.cssText = "color: #999";
@@ -253,7 +254,7 @@ var section = document.querySelector('section');
             g2.className = "esconde";
             ng2.className = "esconde";
             
-            participante4.style.cssText = "background-color: #fff";
+            participante4.style.cssText = "";
             nome4.style.cssText = "color: #ba3638";
             bio4.style.cssText = "color: #999";
             votos4.style.cssText = "color: #999";
@@ -262,7 +263,7 @@ var section = document.querySelector('section');
             g4.className = "esconde";
             ng4.className = "esconde";
 
-            participante5.style.cssText = "background-color: #fff";
+            participante5.style.cssText = "";
             nome5.style.cssText = "color: #ba3638";
             bio5.style.cssText = "color: #999";
             votos5.style.cssText = "color: #999";
@@ -271,7 +272,7 @@ var section = document.querySelector('section');
             g5.className = "esconde";
             ng5.className = "esconde";
         } else if (r3.className == "resultado3 mostra") {
-            participante3.style.cssText = "background-color: #fff";
+            participante3.style.cssText = "";
             nome3.style.cssText = "color: #ba3638";
             bio3.style.cssText = "color: #999";
             votos3.style.cssText = "color: #999";
@@ -293,7 +294,7 @@ var section = document.querySelector('section');
             g4.className = "mostra";
             ng4.className = "mostra";
 
-            participante1.style.cssText = "background-color: #fff";
+            participante1.style.cssText = "";
             nome1.style.cssText = "color: #ba3638";
             bio1.style.cssText = "color: #999";
             votos1.style.cssText = "color: #999";
@@ -302,7 +303,7 @@ var section = document.querySelector('section');
             g1.className = "esconde";
             ng1.className = "esconde";
 
-            participante2.style.cssText = "background-color: #fff";
+            participante2.style.cssText = "";
             nome2.style.cssText = "color: #ba3638";
             bio2.style.cssText = "color: #999";
             votos2.style.cssText = "color: #999";
@@ -311,7 +312,7 @@ var section = document.querySelector('section');
             g2.className = "esconde";
             ng2.className = "esconde";
             
-            participante3.style.cssText = "background-color: #fff";
+            participante3.style.cssText = "";
             nome3.style.cssText = "color: #ba3638";
             bio3.style.cssText = "color: #999";
             votos3.style.cssText = "color: #999";
@@ -320,7 +321,7 @@ var section = document.querySelector('section');
             g3.className = "esconde";
             ng3.className = "esconde";
 
-            participante5.style.cssText = "background-color: #fff";
+            participante5.style.cssText = "";
             nome5.style.cssText = "color: #ba3638";
             bio5.style.cssText = "color: #999";
             votos5.style.cssText = "color: #999";
@@ -329,7 +330,7 @@ var section = document.querySelector('section');
             g5.className = "esconde";
             ng5.className = "esconde";
         } else if (r4.className == "resultado4 mostra") {
-            participante4.style.cssText = "background-color: #fff";
+            participante4.style.cssText = "";
             nome4.style.cssText = "color: #ba3638";
             bio4.style.cssText = "color: #999";
             votos4.style.cssText = "color: #999";
@@ -351,7 +352,7 @@ var section = document.querySelector('section');
             g5.className = "mostra";
             ng5.className = "mostra";
             
-            participante1.style.cssText = "background-color: #fff";
+            participante1.style.cssText = "";
             nome1.style.cssText = "color: #ba3638";
             bio1.style.cssText = "color: #999";
             votos1.style.cssText = "color: #999";
@@ -360,7 +361,7 @@ var section = document.querySelector('section');
             g1.className = "esconde";
             ng1.className = "esconde";
 
-            participante2.style.cssText = "background-color: #fff";
+            participante2.style.cssText = "";
             nome2.style.cssText = "color: #ba3638";
             bio2.style.cssText = "color: #999";
             votos2.style.cssText = "color: #999";
@@ -369,7 +370,7 @@ var section = document.querySelector('section');
             g2.className = "esconde";
             ng2.className = "esconde";
             
-            participante3.style.cssText = "background-color: #fff";
+            participante3.style.cssText = "";
             nome3.style.cssText = "color: #ba3638";
             bio3.style.cssText = "color: #999";
             votos3.style.cssText = "color: #999";
@@ -378,7 +379,7 @@ var section = document.querySelector('section');
             g3.className = "esconde";
             ng3.className = "esconde";
 
-            participante4.style.cssText = "background-color: #fff";
+            participante4.style.cssText = "";
             nome4.style.cssText = "color: #ba3638";
             bio4.style.cssText = "color: #999";
             votos4.style.cssText = "color: #999";
@@ -387,7 +388,7 @@ var section = document.querySelector('section');
             g4.className = "esconde";
             ng4.className = "esconde";
         } else if (r5.className == "resultado5 mostra") {
-            participante5.style.cssText = "background-color: #fff";
+            participante5.style.cssText = "";
             nome5.style.cssText = "color: #ba3638";
             bio5.style.cssText = "color: #999";
             votos5.style.cssText = "color: #999";

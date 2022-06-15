@@ -193,7 +193,7 @@ body > section > article:nth-child(15) > h4:nth-child(6) {
 
 article {
   cursor: pointer;
-  background-color: #fff;
+  /* background-color: #fff; */
   padding: 10px;
   display: block;
   padding: 8px 25px;
@@ -202,7 +202,11 @@ article {
   user-select: none;
 }
 
-article:hover {
+.article-fundo {
+  background-color: #fff;
+}
+
+.article-fundo:hover {
   background-color: #f2f1f1;
 }
 
